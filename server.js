@@ -2,8 +2,9 @@ const Express = require("express");
 const path = require('path');
 const cors = require('cors');
 const Mongoose = require("mongoose");
-const dburl ="mongodb://localhost:27017/brilliodb1" //using for user 
+// const dburl ="mongodb://localhost:27017/brilliodb1" //using for user 
 // const dburl1 ="mongodb://localhost:27017/story" //using for user 
+const dburl = "mongodb+srv://dhanupandey:test12345@cluster0.s2usivc.mongodb.net/?retryWrites=true&w=majority"
 const server = Express();
 
 const Port = 9800;
